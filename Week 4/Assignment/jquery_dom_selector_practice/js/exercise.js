@@ -12,11 +12,12 @@
  * When, button 1 is clicked, select all paragraphs on the page with jQuery, and changed the color to blue.
  * We've started you off, replace the sec
  */
- $('#button1').clicked(question1);
+ 
+ $('#button1').click(question1);
 
- function question1 () {
+ function question1(){
 
- 	$("p").css('color','blue');
+  $('p').text('color','blue');
  }
 	
 
