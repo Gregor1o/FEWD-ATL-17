@@ -1,0 +1,13 @@
+$(document).ready(function  () {
+
+var score = 0;
+
+
+$("#zero").clicked(setZero);
+$("#add5").clicked(addFive);
+$("#add10").clicked(addten);
+$("#sub1").clicked(sub);
+
+function setZero
+
+}
